@@ -1,0 +1,118 @@
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #ffde2a;
+}
+.player{
+    background-color: #840931;
+    height: 200px;
+    width: 140px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border: 10px solid #000000;
+    border-bottom: none;
+    border-radius: 60px 80px 0 0;
+    z-index: 1;
+}
+.player:after{
+    content: "";
+    position: absolute;
+    width: 92%;
+    height: 85%;
+    background-color: #ea1616;
+    top: 2.5px;
+    left: 6px;
+    border-radius: 85% 70% 28% 42% / 28% 56% 88% 89%;
+}
+.legs1{
+   height: 50px;
+   width: 60px;
+   background-color: #840931;
+   position: absolute;
+   margin: 425px 613px;
+   border: 10px solid #000000;
+   border-top: none;
+   border-radius: 0 0 22px 22px;
+}
+.legs2{
+    content: "";
+    height: 50px;
+    width: 60px;
+    background-color: #840931;
+    position: absolute;
+    margin: 425px 693px;
+    border: 10px solid #000000;
+    border-top: none;
+    border-radius: 0 0 22px 22px;
+ }
+ .row{
+    content: "";
+    height: 50px;
+    width: 50px;
+    background-color: none;
+    position: absolute;
+    margin: 425px 670px;
+    border-top: 10px solid #000000;
+    border-radius: 0 0 22px 22px;
+ }
+ .bag{
+    background-color: #ea1616;
+    height: 120px;
+    width: 35px;
+    border: 10px solid black;
+    border-radius: 20px 0 0 20px;
+    border-right: none;
+    position: absolute;
+    margin: 300px 580px;
+    
+ }
+ .bag2{
+    background-color: #840931;
+    height: 75px;
+    width:25px;
+    /* border: 10px solid black; */
+    border-radius: 10px 0 0 10px;
+    /* border-left: none;
+    border-top: none;
+    border-right: none; */
+    position: absolute;
+    margin: 335px 589px;
+ }
+ .glass{
+    background-color: rgb(27, 24, 80);
+    height: 75px;
+    width: 125px;
+    border: 10px solid black; 
+    border-radius: 20px 40px 29px 20px;
+    position: absolute;
+    margin: 270px 665px;
+    z-index: 2;
+ }
+ .glass1{
+    background-color: rgb(53, 199, 209);
+    height: 35px;
+    width: 82px; 
+    border-radius: 0px 100px 15px 80px;
+    position: absolute;
+    margin: 280px 700px;
+    z-index: 3;
+ }
+ .glass2{
+    background-color: rgb(255, 255, 255);
+    height: 15px;
+    width: 45px; 
+    border-radius: 50px 50px 50px 50px;
+    transform: rotate(5deg);
+    position: absolute;
+    margin: 285px 725px;
+    z-index: 4;
+ }
